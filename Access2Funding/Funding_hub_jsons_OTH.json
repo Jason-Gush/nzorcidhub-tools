@@ -1,0 +1,104 @@
+[{
+        "invitees": [{
+                "identifier": "01234567",
+                "email": "generic.lead@mailinator.com",
+                "first-name": "Generic",
+                "last-name": "Lead"
+            }, {
+                "identifier": "12345678",
+                "email": "associate.investigator@mailinator.com",
+                "first-name": "Associate",
+                "last-name": "Investigator"
+            }, {
+                "identifier": "23456789",
+                "email": "emerging.researcher@mailinator.com",
+                "first-name": "Emerging",
+                "last-name": "Researcher"
+            }, {
+                "identifier": "34567890",
+                "email": "other.investigator@mailinator.com",
+                "first-name": "Other",
+                "last-name": "Investigator"
+            }
+        ],
+        "type": "CONTRACT",
+        "title": {
+            "title": {
+                "value": "This is a mock RDF project"
+            }
+        },
+        "short-description": "This is the 200 word summary of a project suitable for public presentation",
+        "amount": {
+            "value": "800000",
+            "currency-code": "NZD"
+        },
+        "organization-defined-type": {
+            "value": "Royal Society Te Apārangi Funding Programme"
+        },
+        "start-date": {
+            "year": {
+                "value": "2022"
+            }
+        },
+        "end-date": {
+            "year": {
+                "value": "2027"
+            }
+        },
+        "external-ids": {
+            "external-id": [{
+                    "external-id-type": "proposal-id",
+                    "external-id-value": "RDF-21-DUM-001",
+                    "external-id-relationship": "self"
+                }, {
+                    "external-id-type": "grant_number",
+                    "external-id-value": "RDF-DUM2101",
+                    "external-id-relationship": "self"
+                }
+            ]
+        },
+        "contributors": {
+            "contributor": [{
+                    "credit-name": {
+                        "value": "Dr Generic Lead"
+                    },
+                    "contributor-attributes": {
+                        "contributor-role": "lead"
+                    }
+                }, {
+                    "credit-name": {
+                        "value": "Dr Associate Investigator"
+                    },
+                    "contributor-attributes": {
+                        "contributor-role": null
+                    }
+                }, {
+                    "credit-name": {
+                        "value": "Dr Emerging Researcher"
+                    },
+                    "contributor-attributes": {
+                        "contributor-role": "supported-by"
+                    }
+                }, {
+                    "credit-name": {
+                        "value": "Prof Other Investigator"
+                    },
+                    "contributor-attributes": {
+                        "contributor-role": "co-lead"
+                    }
+                }
+            ]
+        },
+        "organization": {
+            "name": "Royal Society Te Apārangi",
+            "address": {
+                "city": "Wellington",
+                "country": "NZ"
+            },
+            "disambiguated-organization": {
+                "disambiguated-organization-identifier": "http://dx.doi.org/10.13039/501100001509",
+                "disambiguation-source": "FUNDREF"
+            }
+        }
+    }
+]
